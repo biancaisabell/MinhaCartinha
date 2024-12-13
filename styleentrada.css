@@ -1,0 +1,61 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-image: url(fundovermelho.png);
+    font-family: Arial, sans-serif;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+
+.image-container {
+    position: relative; 
+    display: inline-block; 
+    max-width: 110%; 
+    margin-top: 5%;
+}
+
+.foto {
+    display: block; 
+    width: 100%; 
+    height: auto;
+    border-radius: 10px; 
+}
+
+
+.text-overlay {
+    position: absolute; 
+    top: 65%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: rgb(170, 0, 0); 
+    font-size: 12px; 
+    font-weight: bold; 
+    text-align: center; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+    z-index: 1;
+}
+.botao {
+    display: inline-block;
+    background-color: #b70000; 
+    color: white; 
+    padding: 5px 10px; 
+    text-decoration: none; 
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    z-index: 2;
+}
+
+footer {   
+    bottom: 0;          
+    width: 100%;        
+    color: rgb(255, 255, 255);
+    text-align: center; 
+    padding: 0px; 
+}
